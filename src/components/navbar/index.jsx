@@ -6,18 +6,18 @@ import { BsMusicPlayer } from 'react-icons/bs'
 import { TfiVideoClapper } from 'react-icons/tfi'
 function index() {
     return (
-        <VStack justify={'space-between'} padding={'10px'} margin={'10px'} width={'40px'} height={'100%'} paddingBottom={'130px'} paddingTop={'30px'}>
-            <VStack gap={'10'}>
-                <IconButton icon={<AiOutlineMenu />} />
-                <IconButton icon={<AiOutlineSearch />} />
-                <IconButton icon={<AiOutlineHome />} />
-                <IconButton icon={<HiOutlineMusicNote />} />
-                <IconButton icon={<TfiVideoClapper />} />
+        <VStack justify={'space-between'} padding={'10px'} height={'100%'} paddingTop={'30px'} backgroundColor={'#1b1a1a'}>
+            <VStack gap={'12'}>
+                <IconButton width={'24px'} height={'24px'} icon={<AiOutlineMenu />} />
+                <IconButton width={'24px'} height={'24px'} icon={<AiOutlineSearch />} />
+                <IconButton width={'24px'} height={'24px'} icon={<AiOutlineHome />} />
+                <IconButton width={'24px'} height={'24px'} icon={<HiOutlineMusicNote />} />
+                <IconButton width={'24px'} height={'24px'} icon={<TfiVideoClapper />} />
                 <Divider />
-                <IconButton icon={<AiOutlineMenuUnfold />} />
-                <IconButton icon={<BsMusicPlayer />} />
+                <IconButton width={'24px'} height={'24px'} icon={<AiOutlineMenuUnfold />} />
+                <IconButton width={'24px'} height={'24px'} icon={<BsMusicPlayer />} />
             </VStack>
-            <IconButton icon={<AiFillSetting />} />
+            <IconButton width={'24px'} height={'18px'} icon={<AiFillSetting />} />
         </VStack>
     )
 }

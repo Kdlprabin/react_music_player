@@ -3,9 +3,11 @@ import {HStack,Text} from '@chakra-ui/react'
 import {AiOutlinePlayCircle} from 'react-icons/ai'
 function Header() {
   return (
-    <HStack width={'100%'}>
+    <HStack width={'100%'} padding={'10px'}>
       <AiOutlinePlayCircle />
-      <Text>Music Player</Text>
+      <Text
+      fontSize={'12px'}
+      >Music Player</Text>
     </HStack>
   )
 }

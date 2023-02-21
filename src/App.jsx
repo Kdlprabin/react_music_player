@@ -5,7 +5,7 @@ import Controller from './components/controller'
 import { HStack, VStack } from '@chakra-ui/react'
 function App() {
   return (
-    <VStack>
+    <VStack backgroundColor={'#2a2826'}>
       <HStack className="App" width={'100vw'} height={'100vh'}>
         <Navbar />
         <VStack width={'100%'} height={'100vh'}>
