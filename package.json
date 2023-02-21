@@ -1,7 +1,7 @@
 {
   "name": "react_music_player",
   "homepage": "http://gitname.github.io/Kdlprabin/react_music_player",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
