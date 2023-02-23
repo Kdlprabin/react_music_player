@@ -3,7 +3,7 @@ import { BsShuffle, BsFillPlayCircleFill } from 'react-icons/bs'
 import { BiSkipPrevious, BiSkipNext } from 'react-icons/bi'
 function mainController() {
     return (
-        <HStack gap={'2'}>
+        <HStack>
             <Box height={'10vh'} width={'10vw'} backgroundColor={'white'} borderRadius={'5px'}></Box>
             <Text>Name</Text>
             <Box>
