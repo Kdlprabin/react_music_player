@@ -13,28 +13,36 @@ function index() {
     dispatch(getMusic())
   },[])
   return (
-    <VStack backgroundColor={'#2a2826'} width={'100%'} height={'100%'} alignItems={'Left'} paddingLeft={'50'} overflow={'scroll'} overscroll={'contain'} gap={'10'}>
+    <VStack backgroundColor={'#2a2826'} width={'100%'} height={'100%'} alignItems={'center'} paddingBottom={'110px'} paddingLeft={'50'} overflow={'scroll'} overscroll={'contain'} gap={'10'}>
       <Text
-        fontSize={'40px'}
+        fontSize={'32px'}
+        textAlign={'left'}
+        width={'100%'}
+        display={'inline'}
+        paddingLeft={'4%'}
       >Home</Text>
       <Text
-        fontSize={'24px'}
-      >Recent Media</Text>
-      <HStack gap={'10'}>
+        paddingLeft={'4%'}
+        fontSize={'20px'}
+        textAlign={'left'}
+        width={'100%'}
+        display={'inline'}
+      >Recent media</Text>
+      <HStack width={'100%'} display={'flex'} justify={'space-evenly'}>
         <MediaItem />
         <MediaItem />
         <MediaItem />
         <MediaItem />
         <MediaItem />
       </HStack>
-      <HStack gap={'10'}>
+      <HStack width={'100%'} display={'flex'} justify={'space-evenly'}>
         <MediaItem />
         <MediaItem />
         <MediaItem />
         <MediaItem />
         <MediaItem />
       </HStack>
-      <HStack gap={'10'}>
+      <HStack width={'100%'} display={'flex'} justify={'space-evenly'}>
         <MediaItem />
         <MediaItem />
         <MediaItem />

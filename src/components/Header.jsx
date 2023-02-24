@@ -6,7 +6,7 @@ function Header() {
     <HStack width={'100%'} padding={'10px'}>
       <AiOutlinePlayCircle />
       <Text
-      fontSize={'12px'}
+      fontSize={'16px'}
       >Music Player</Text>
     </HStack>
   )

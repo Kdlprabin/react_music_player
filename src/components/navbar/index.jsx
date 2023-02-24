@@ -8,16 +8,16 @@ function index() {
     return (
         <VStack justify={'space-between'} padding={'10px'} height={'100%'} paddingTop={'30px'} backgroundColor={'#1b1a1a'}>
             <VStack gap={'12'}>
-                <IconButton width={'24px'} height={'24px'} icon={<AiOutlineMenu />} />
-                <IconButton width={'24px'} height={'24px'} icon={<AiOutlineSearch />} />
-                <IconButton width={'24px'} height={'24px'} icon={<AiOutlineHome />} />
-                <IconButton width={'24px'} height={'24px'} icon={<HiOutlineMusicNote />} />
-                <IconButton width={'24px'} height={'24px'} icon={<TfiVideoClapper />} />
+                <IconButton width={'32px'} height={'32px'} icon={<AiOutlineMenu size={'16px'}  />} />
+                <IconButton width={'32px'} height={'32px'} icon={<AiOutlineSearch size={'16px'}   />} />
+                <IconButton width={'32px'} height={'32px'} icon={<AiOutlineHome size={'16px'}   />} />
+                <IconButton width={'32px'} height={'32px'} icon={<HiOutlineMusicNote size={'16px'}   />} />
+                <IconButton width={'32px'} height={'32px'} icon={<TfiVideoClapper size={'16px'}   />} />
                 <Divider />
-                <IconButton width={'24px'} height={'24px'} icon={<AiOutlineMenuUnfold />} />
-                <IconButton width={'24px'} height={'24px'} icon={<BsMusicPlayer />} />
+                <IconButton width={'32px'} height={'32px'} icon={<AiOutlineMenuUnfold size={'16px'}   />} />
+                <IconButton width={'32px'} height={'32px'} icon={<BsMusicPlayer size={'16px'}   />} />
             </VStack>
-            <IconButton width={'24px'} height={'18px'} icon={<AiFillSetting />} />
+            <IconButton width={'24px'} height={'18px'} icon={<AiFillSetting size={'16px'}   />} />
         </VStack>
     )
 }
